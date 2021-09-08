@@ -3,7 +3,7 @@ Module 12 Challenge Analysis Files/Links
 - ![index.html](https://github.com/aseo67/Belly-Button-Analysis/blob/main/index.html)
 - ![charts.js](https://github.com/aseo67/Belly-Button-Analysis/blob/main/js/charts.js)
 - Data file: ![samples.json](https://github.com/aseo67/Belly-Button-Analysis/blob/main/samples.json)
-- github Page ![link](https://aseo67.github.io/Belly-Button-Analysis/)
+- github Page: https://aseo67.github.io/Belly-Button-Analysis/
 
 ## Overview of Analysis
 This Belly Button Analysis explores and displays the results from a microbiology study that collected bacteria samples from peoples' navels, in order to help identify what bacterial species colonize in people's belly buttons. This page contains the resulting data from each test subjects' navel samples, including their demographic information and charts to help visualize information, such as what bacteria types are observed the most and how often they wash.
