@@ -15,5 +15,5 @@ In addition to the demographic panel and charts, the following additional custom
 - Additional infomration about project added as paragraph
 - Additional information about each visualization added under each chart
 - Background color of page added
-- Navigation bar added at top of page to easily navigate to the bar chart of bubble chart
+- Navigation bar added at top of page to easily navigate to the bar chart or bubble chart
 
