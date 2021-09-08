@@ -17,4 +17,3 @@ In addition to the demographic panel and charts, the following additional custom
 - Background color of page added
 - Navigation bar added at top of page to easily navigate to the bar chart of bubble chart
 
-
