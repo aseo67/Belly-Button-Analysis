@@ -9,10 +9,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body>
+<body style="background-color:lightgray;">
 
   <div class="container">
     <div class="row">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Belly Button Analysis</a>
+        <a class="navbar-brand" href="#bar">Bar Chart</a>
+        <a class="navbar-brand" href="#bubble">Bubble Chart</a>
+      </nav>
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
@@ -22,13 +27,17 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Project Information</h3>
-        <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="text-align:left">This Belly Button Analysis explores and displays the results from a microbiology study that collected bacteria samples from peoples' navels, in order to help identify what bacterial specises colonize in people's belly buttons. This page contains the resulting data from each test subjects' navel samples, including their demographic information and charts to help visualize information, such as what bacteria types are observed the most and how often they wash. </p>
       </div>
     </div>
     
     <div class="row">
+      <div class="col-md-12">
+        <h3>Project Data & Charts</h3>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-2">
-        <h3>Data Results</h3>
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -48,12 +57,33 @@
         <div id="gauge"></div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-2">
+        <h4>Test Subject Info</h4>
+        <p>The test subject is selected from the dropdown above, and the page is updated accordingly. The panel above displays the demographic data for the subject.</p>
+      </div>
+      <div class="col-md-5">
+        <h4>Bar Chart</h4>
+        <p>This chart displays the top 10 bacterial species (OTUs) for the test subject selected from the dropdown menu.</p>
+      </div>
+      <div class="col-md-5">
+        <h4>Gauge Chart</h4>
+        <p>The gauge above reports the washing frequency per week of the selected individual.</p>
+      </div>
+    </div>
     
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" span style="padding-top:50px">
         <div id="bubble"></div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Bubble Chart</h4>
+        <p>The chart above displays the various bacterial species (OTUs) found on the test subject. The bacteria cultures (OTUs) are displayed by id number (on x-axis) and mapped on the chart by the size of the sample (y-axis and datapoint size). The various colors represent unique bacteria cultures (OTUs).</p>
+      </div>
+    </div>
+
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
